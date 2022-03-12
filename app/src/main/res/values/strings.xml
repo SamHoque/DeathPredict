@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Death Predict</string>
+    <string name="how_will_i_die">How will I die?</string>
+    <string name="when_will_i_die">When will I die?</string>
+    <string name="banner_home">ca-app-pub-xx/xx</string>
+    <string name="banner_result">ca-app-pub-xx/xx</string>
+</resources>

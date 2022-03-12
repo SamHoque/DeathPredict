@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rab.deathpredict.main_lynx"
+    android:background="#00000000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.rab.deathpredict.main_lynx"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+        android:id="@+id/a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:text="P r e d i c t  D e a t h"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/button2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b"
+        android:textColor="@android:color/white"
+        android:text="@string/how_will_i_die"
+        android:layout_marginBottom="175dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b"
+        android:text="@string/when_will_i_die"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+<!--        <com.google.android.gms.ads.AdView-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="@string/banner_home"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true">-->
+<!--        </com.google.android.gms.ads.AdView>-->
+    </RelativeLayout>
+
+</RelativeLayout>
